@@ -1,130 +1,97 @@
-# 🥗 Healthy Food Tips Mobile App
+# 🍎 Healthy Food Tips App
 
-A cross-platform mobile application built using **React Native and Expo** that provides users with practical, evidence-based nutrition guidance to support healthier daily habits. The app focuses on simplicity, offline accessibility, and privacy-friendly usage, making healthy living easy and achievable for everyone.
+<div align="center">
 
----
+**A comprehensive mobile application for evidence-based nutrition guidance and healthy lifestyle management**
 
-## 🚀 App Features
+[![Expo](https://img.shields.io/badge/Expo-SDK%2052-000020?style=flat&logo=expo)](https://expo.dev)
+[![React Native](https://img.shields.io/badge/React%20Native-0.76-61DAFB?style=flat&logo=react)](https://reactnative.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-### 🏠 Home Dashboard
-Displays a daily healthy food tip along with motivational health quotes to encourage consistent engagement and positive lifestyle habits.
+</div>
 
-### 🗂️ Categories
-Food tips are organized into six health-focused categories including Weight Loss, Muscle Gain, Heart Health, Brain Health, General Nutrition, and Kids Nutrition for easy discovery and learning.
+## 📖 Overview
 
-### ⭐ Favorites
-Allows users to save their preferred food tips for quick access during grocery shopping or meal planning. Favorites are stored locally on the device.
+The Healthy Food Tips App is a React Native mobile application built with Expo that empowers users to make informed dietary choices through curated nutrition tips, meal planning suggestions, and health tracking tools. Designed with evidence-based nutrition science in mind, this app serves as your daily companion for healthier living.
 
-### 🍽️ Meal Planning
-Provides curated breakfast, lunch, and dinner suggestions with portion recommendations to help users maintain a balanced and healthy diet.
+## ✨ Key Features
 
-### 🥦 Food Details
-Offers detailed nutritional information, scientific explanations, health benefits, portion guidance, and optimal consumption timing for each food item.
+- **Daily Nutrition Tips**: Curated, evidence-based food tips updated daily
+- **Category-Based Browsing**: Organized tips by health goals (Weight Loss, Heart Health, etc.)
+- **Meal Planning**: Breakfast, lunch, and dinner suggestions with nutritional benefits
+- **Water Intake Tracker**: Monitor daily hydration with visual progress indicators
+- **Favorites System**: Save and quickly access your preferred tips
+- **Push Notifications**: Customizable daily reminders for healthy habits
+- **Comprehensive Details**: In-depth information including benefits, timing, and portions
 
-### 💧 Water Tracker
-Enables users to track daily water intake through a simple one-tap interface, supporting healthy hydration habits.
+## 🚀 Quick Start
 
-### ℹ️ About
-Presents application information, purpose, and health awareness goals in a clear and minimal format.
+### Prerequisites
 
----
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- iOS Simulator (macOS only) or Android Emulator
 
-## 🛠️ Technology Stack
+### Installation
 
-**Core Technologies**
-- React Native
-- Expo
-- TypeScript
-- Expo Router
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd HealthyFoodTipsApp
+   ```
 
-**State Management & Data**
-- React Hooks
-- Context API
-- AsyncStorage
-
-**UI / UX Components**
-- StyleSheet
-- Material Icons
-- Custom reusable components
-
-**Development Tools**
-- Git & GitHub
-- ESLint
-- TypeScript Compiler
-
-**Architecture & Data Management**
-- File-based routing
-- Component composition
-- Type-safe development
-- Static data handling with async operations
-- Local data persistence for offline access
-
----
-
-## 🌱 App Benefits
-
-The Healthy Food Tips App helps users improve their overall well-being by providing reliable nutrition knowledge and practical daily guidance. It supports better hydration through built-in water tracking, encourages balanced eating with structured meal planning, and promotes portion control and optimal food timing. Users can easily organize their favorite tips for quick reference, save time with short and actionable daily insights, and stay motivated through inspirational health quotes. 
-
-All content is available offline, requires no user login, and stores data locally to ensure privacy and convenience. The app is completely free to use, works seamlessly on both Android and iOS devices, and is designed with a simple, intuitive interface suitable for users of all ages.
-
----
-
-## 📱 Platform Support
-- Android
-- iOS
-
----
-
-## 📌 Conclusion
-
-The Healthy Food Tips Mobile App is designed to make healthy living simple, accessible, and sustainable by combining clean UI design, offline functionality, and evidence-based nutrition guidance in one easy-to-use mobile application.
-
----
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Start the development server**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Launch the app**
+   - Press `i` to open in iOS Simulator
+   - Press `a` to open in Android Emulator
+   - Scan the QR code with [Expo Go](https://expo.dev/go) on your mobile device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Platform Support
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- ✅ iOS 13.0 and above
+- ✅ Android 6.0 (API 23) and above
+- ✅ Web (Progressive Web App)
 
-## Get a fresh project
+## 🛠️ Technology Stack
 
-When you're ready, run:
+| Technology | Purpose |
+|------------|---------|
+| **React Native** | Cross-platform mobile framework |
+| **Expo SDK 52** | Development platform and tooling |
+| **TypeScript** | Type-safe development |
+| **Expo Router** | File-based navigation system |
+| **AsyncStorage** | Local data persistence |
+| **Expo Notifications** | Push notification system |
 
-```bash
-npm run reset-project
-```
+## 📚 Documentation
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+For comprehensive documentation about the app's features, architecture, and development guide, please refer to [README_APP.md](README_APP.md).
 
-## Learn more
+## 🤝 Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Join the community
 
-Join our community of developers creating universal apps.
+## ⚠️ Medical Disclaimer
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This application provides general nutrition information for educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare providers before making significant dietary changes.
+
+
